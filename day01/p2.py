@@ -2,7 +2,7 @@ list_a = []
 list_b = []
 diffsum = 0
 
-with open("input.txt", "r") as data:
+with open("day01/input.txt", "r") as data:
     for line in data:
         a, b = line.split()
         list_a.append(int(a))
